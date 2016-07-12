@@ -15,9 +15,9 @@ targetCompatibility = 1.8
 ext {
     nexusUser = "admin"
     nexusPassword = "R3dB33575"
-    nexusUrl = "http://gob.gcba.giu:8081/content/repositories/releases/"
-    nexusSnapshot = "http://gob.gcba.giu:8081/content/repositories/snapshots/"
-}   
+    nexusUrl = "http://repo.dev.redbee.io:8081/content/repositories/releases/"
+    nexusSnapshot = "http://repo.dev.redbee.io:8081/content/repositories/snapshots/"
+}
 
 buildscript {
     ext {
