@@ -1,6 +1,6 @@
 spring:
   application:
-    name: aleph-cloud-config
+    name: giu-cloud-config
   cloud:
     config:
       env: dev
