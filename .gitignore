@@ -1,0 +1,126 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+**.db
+.DS_Store
+
+# Editor Files #
+################
+*~
+*.swp
+
+# Build output directies #
+################
+/target
+*/target
+**/target
+/build
+*/build
+/bin
+*/bin
+/test-output
+*/test-output
+*/logs
+**/logs
+*/logs/*
+# IntelliJ specific files/directories #
+################
+
+out
+.idea
+*.ipr
+*.iws
+*.iml
+atlassian-ide-plugin.xml
+
+# Eclipse specific files/directories #
+################
+**.classpath
+**.project
+**.settings
+**.metadata
+target-eclipse/
+
+# NetBeans specific files/directories # 
+################
+.nbattrs
+/bin
+/test-output
+bin/
+
+# Others #
+################
+Servers/
+
+
+*.class
+*.iml
+*.orig
+.gradle
+build/
+.idea/
+gradle/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Package Files #
+
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+*.ipr
+*.iws
+*.ids
+log/oauth.log
+# Settings para ScalaIde
+.DS_Store
+**.project
+**.settings
+**.classpath
+**/target
+.cache
+.gradletasknamecache
+
+
+
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+
+
+
+

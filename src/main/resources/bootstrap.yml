@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: aleph-cloud-config
+  cloud:
+    config:
+      env: dev
+      server:
+        bootstrap: true
+        prefix: /config
+        git:
+          uri: https://github.com/turner-argentina-aleph/aleph-config
+          username: biandratti
+          password: biandra71548
+encrypt:
+  key: encryptme
+security:
+  user:
+    password: sarasa
