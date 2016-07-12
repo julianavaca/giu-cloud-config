@@ -8,9 +8,9 @@ spring:
         bootstrap: true
         prefix: /config
         git:
-          uri: https://github.com/turner-argentina-aleph/aleph-config
-          username: biandratti
-          password: biandra71548
+          uri: https://github.com/julianavaca/giu-config
+          username: julianavaca
+          password: pepeloco123
 encrypt:
   key: encryptme
 security:

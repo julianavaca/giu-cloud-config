@@ -5,7 +5,7 @@ apply plugin: 'io.spring.dependency-management'
 apply plugin: 'docker'
 apply plugin: 'maven'
 
-group = 'com.turner.aleph'
+group = 'com.giu.gcba'
 version = '0.0.1'
 
 sourceCompatibility = 1.8
@@ -15,8 +15,8 @@ targetCompatibility = 1.8
 ext {
     nexusUser = "admin"
     nexusPassword = "R3dB33575"
-    nexusUrl = "http://argalephdockerd2:8081/content/repositories/releases/"
-    nexusSnapshot = "http://argalephdockerd2:8081/content/repositories/snapshots/"
+    nexusUrl = "http://gob.gcba.giu:8081/content/repositories/releases/"
+    nexusSnapshot = "http://gob.gcba.giu:8081/content/repositories/snapshots/"
 }   
 
 buildscript {
@@ -44,7 +44,7 @@ task uploadNexus() {
 uploadArchives.dependsOn('uploadNexus')
 
 jar {
-    baseName = 'aleph-cloud-config'
+    baseName = 'api-cloud-config'
 }
 
 repositories {
