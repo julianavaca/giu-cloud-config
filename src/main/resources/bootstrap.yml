@@ -8,7 +8,7 @@ spring:
         bootstrap: true
         prefix: /config
         git:
-          uri: https://github.com/julianavaca/giu-config
+          uri: https://github.com/redbeestudios/giu-config
           username: julianavaca
           password: pepeloco123
 encrypt:
