@@ -3,7 +3,7 @@ spring:
     name: giu-cloud-config
   cloud:
     config:
-      env: dev
+      env: develop
       server:
         bootstrap: true
         prefix: /config
